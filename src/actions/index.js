@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+
+//only included key to easily load example for Vuong. will destroy after
 const API_KEY = '9aaf4ac82210993cb8c8124931f891b0';
 const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 

@@ -13,6 +13,8 @@ class SearchBar extends Component {
 		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
 
+	//when the user clicks submits the form we will capure the input
+	//and save it to state.term
 	onInputChange(event) {
 		this.setState({term: event.target.value})
 	}

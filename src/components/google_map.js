@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoogleMapLoader, GoogleMap} from 'react-google-maps';
 
+//set up styles and pass in the lat/long
 export default (props) => {
 	return (
 		<GoogleMapLoader 

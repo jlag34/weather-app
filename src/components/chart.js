@@ -6,6 +6,7 @@ function average(data) {
 	return _.round(_.sum(data)/data.length);
 }
 
+//we pass the array of data to sparklines and it will handle the rest
 export default (props) => {
 	return (
 		<div>

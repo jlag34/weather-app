@@ -7,6 +7,7 @@ import GoogleMap from '../components/google_map';
 
 class WeatherList extends Component {
 	//for each city we get back, run this function on it
+	//will create a new table row for each city
 	renderWeather(cityData){
 		const name = cityData.city.name;
 		const temps = _.map(cityData.list.map(weather => weather.main.temp), (temp) => temp*(9/5)-459.67);
