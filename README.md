@@ -7,3 +7,5 @@ Basic weather app that will give the five day forecast and average. This app was
 	> npm install
 	> npm start
 ```
+
+The app runs on localhost:8080
