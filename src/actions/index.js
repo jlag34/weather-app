@@ -1,1 +1,1 @@
-//actions home
+const API_KEY = '9aaf4ac82210993cb8c8124931f891b0';
