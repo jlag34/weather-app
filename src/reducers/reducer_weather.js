@@ -10,5 +10,5 @@ export default function(state = [], action) {
 
 //put all of our data in an array
 //action.payload.data will be our new data
-//make sure to use concat to not mutate our array, return new version of state
+//make sure to use concat to avoid mutating our array, return new version of state
 // can use  'return [action.payload.data, ...state]' as well
